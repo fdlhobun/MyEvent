@@ -22,7 +22,7 @@ include 'header.php'; ?>
         $tag = $ada ? 'a' : 'div'; ?>
         <<?= $tag ?> class="booth <?= $ada ? 'ok' : 'full' ?>" style="grid-area:<?= $area ?>" data-tip="<?= e($tip) ?>"<?= $ada ? ' href="pesan.php?booth=' . $b['id_booth'] . '"' : '' ?>><?= e($b['kode_booth']) ?></<?= $tag ?>>
     <?php endforeach; ?>
-    <div class="jalan">Jalan bebas &rarr; &rarr; &rarr;</div>
+    <div class="jalan">&rarr; &rarr; &rarr;</div>
 </div>
 <p class="hint">Klik booth hijau untuk menyewa. Arahkan kursor ke booth untuk melihat statusnya.</p>
 <?php include 'footer.php'; ?>
