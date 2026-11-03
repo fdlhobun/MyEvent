@@ -2,7 +2,7 @@
 require ('classes.php');
 $nav = 'my';
 $pm = new Pemesanan;
-$r = $pm->cari((int) ($_GET[''] ?? 0));
+$r = $pm->cari((int) ($_GET['id'] ?? 0));
 if (!$r || $r['status_bayar'] === 'lunas') {
   flash('Pesanan tidak ditemukan atau sudah lunas.');
   go('my_booth.php');
