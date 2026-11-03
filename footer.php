@@ -1,4 +1,4 @@
 </main>
-<footer>© Wholesome CPP Licker</footer>
+<footer>© Wholesome Team</footer>
 </body>
 </html>
