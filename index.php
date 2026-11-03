@@ -1,4 +1,7 @@
-<?php require 'classes.php';
+<?php
+ini_set('display_errors', 1);
+error_reporting(E_ALL);
+require 'classes.php';
 $judul = 'Home';
 $nav = 'home';
 $list = (new Acara)->semua();
