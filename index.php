@@ -10,7 +10,7 @@ include 'header.php'; ?>
 <div class="cards">
     <?php foreach ($list as $a): ?>
         <a class="card" href="denah.php?id=<?= $a['id_acara'] ?>">
-            <h2><? e($a['nama_event']) ?></h2>
+            <h2><?= e($a['nama_event']) ?></h2>
             <p class="loc"><?= e($a['lokasi']) ?></p>
             <dl>
                 <div>
