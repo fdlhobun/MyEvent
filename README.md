@@ -14,14 +14,6 @@ Yang dipakai
 
 PHP 8, MySQL/MariaDB (PDO), HTML dan CSS biasa tanpa framework.
 
-Cara menjalankan
-Taruh folder ini di htdocs (XAMPP), jadi htdocs/my_event/.
-Nyalakan Apache dan MySQL.
-Buka phpMyAdmin, lalu import database.sql. Database my_event akan dibuat otomatis.
-Buka http://localhost/my_event/.
-
-Kalau MySQL-mu pakai password, ubah di class Database di classes.php.
-
 Struktur file
 File	Isinya
 classes.php	Class Database, Model, Acara, Booth, Pemesanan dan fungsi bantu
